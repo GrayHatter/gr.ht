@@ -8,5 +8,5 @@ enableRobotsTXT = true
 	author.displayname = 'Gregory Mullen'
 
 [permalinks]
-	posts = '/:year/:month/:day/:title'
+	posts = '/:year/:month/:day/:slug'
 	'/' = '/:year/:month/:filename.html'
