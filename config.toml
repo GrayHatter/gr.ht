@@ -1,0 +1,12 @@
+baseURL = 'https://gr.ht/'
+languageCode = 'en-us'
+title = 'The Gray Hatter'
+uglyurls = true
+enableRobotsTXT = true
+[params]
+	email = 'grht@gr.ht'
+	author.displayname = 'Gregory Mullen'
+
+[permalinks]
+	posts = '/:year/:month/:day/:title'
+	'/' = '/:year/:month/:filename.html'

@@ -1,0 +1,4 @@
+# We don't commit images
+/static/assets/*
+/static/static/*.ttf
+/public

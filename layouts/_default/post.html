@@ -1,0 +1,43 @@
+{{ define "title" }}
+<header>
+  <h1 class="page-title">{{ .Title }}</h1>
+  <p class="post-meta">
+    <time class="dt-published" datetime="{{ .Date  }}">
+      {{- .Date | time.Format "Jan 2, 2006" -}}
+    </time> from
+    <span itemprop="author" itemtype="http://schema.org/Person">
+      <span class="p-author h-card" itemprop="name">
+        <a href="{{ .Site.BaseURL }}">
+          {{- .Author.DisplayName |
+          default .Site.Params.Author.DisplayName |
+          default "anonymous" | htmlEscape -}}
+        </a>
+      </span>
+    </span>
+    {{- if ne .Lastmod .Date }}
+    (updated on <time class="dt-published" datetime="{{ .Date  }}">
+      {{- .Lastmod | time.Format "Jan 2, 2006" -}}
+    </time>)
+    {{ end -}}
+  </p>
+</header>
+{{ end }}
+
+{{ define "main" }}
+<div class="grid">
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="post-content e-content" itemprop="articleBody">
+          {{ .Content }}
+        </div>
+      </article>
+      <p>
+        {{ $p_email := (default (replaceRE `[^a-zA-Z0-0]` "" .Title) .Params.Email) -}}
+        comments, questions, insults? &mdash;&gt; <a href="mailto:{{ $p_email }}@gr.ht">
+        {{- $p_email}}@gr.ht</a>
+      </p>
+    </div>
+  </main>
+</div>
+{{ end }}

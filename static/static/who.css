@@ -1,0 +1,162 @@
+html {
+    background: #1a1a1a;
+    color: #CCC;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: url('/static/tree.png') repeat-y;
+    background-position: 0 18rem;
+    margin-left: 1rem;
+}
+
+h1 {
+    font-family: 'Open Sans SemiBold', 'Open Sans', sans-serif;
+    font-size: 64px;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: 'Open Sans SemiBold', 'Open Sans', sans-serif;
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-family: 'Open Sans SemiBold', 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+
+p {
+    padding-bottom: 0.33rem;
+    line-height: 1.15;
+}
+
+a {
+    color: #944;
+}
+
+a:visited {
+    color: #966;
+}
+
+.content {
+    /* background: #5555; */
+    padding-top: 3rem;
+    margin-bottom: -2rem;
+}
+
+.content > .gitline-root{
+    width: 0.5rem;
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+    background: #CCC;
+    left: 8rem;
+    top: 0;
+}
+
+.content > .intro{
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+}
+
+.project {
+    margin-left: 4rem;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.project > .git {
+    width: 0.5rem;
+    position: relative;
+    background: #CCC;
+    left : 3rem;
+}
+
+.project > .gitline {
+    width: 0.5rem;
+    position: relative;
+    height: 2rem;
+    background: #CCC;
+    left : 3rem;
+}
+
+.project > .git > .commit {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    border: white solid 2px;
+    border-radius: 2rem;
+    top: 1rem;
+    left: -0.9rem;
+}
+
+.project > .git > .commit.code {
+    background: #810000;
+}
+
+.project > .git > .commit.work {
+    background: #000081;
+}
+
+.project > .git > .commit.school {
+    background: #008100;
+}
+
+.project > .git > .commit.merit {
+    background: #818181;
+}
+
+.project > .project-body {
+    background: #7d7d7d50;
+    padding: 0.333rem 0.333rem 0.333rem 5.25rem;
+    border-radius: 1rem;
+    min-width: 25rem;
+    max-width: 45rem;
+    min-height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.project > .project-body.w25 {
+    width: 25rem;
+}
+
+.project > .project-body.w30 {
+    width: 30rem;
+}
+
+.project > .project-body.w40 {
+    width: 40rem;
+}
+
+.project > .project-body.w50 {
+    width: 50rem;
+    max-width: 50rem;
+}
+
+.project > .project-body > p {
+    margin-top: 0.25rem;
+}
+
+
+.project > .project-body > a {
+    font: italic bold 14px 'Open Sans', sans-serif;
+    color: blue;
+}
+
+.project > .project-body > p.years {
+    font: italic 14px 'Open Sans', sans-serif;
+    margin-bottom: 0.25rem;
+}
+
+.project > .project-body > p.lang {
+    font: italic 14px 'Open Sans', sans-serif;
+    margin-bottom: 0.25rem;
+}
+
+.project > .project-body > p.title {
+    font: italic 14px 'Open Sans', sans-serif;
+    margin-bottom: 0.25rem;
+}
+

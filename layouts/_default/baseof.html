@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ .Language | default .Site.Language }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title | default .Site.Title }}</title>
+    <link rel="stylesheet" href="/static/reset.min.css">
+    <link rel="stylesheet" href="/static/fonts.css">
+    <link rel="stylesheet" href="/static/main.css">
+    {{ range .AlternativeOutputFormats -}}
+      {{- printf `<link rel="%s" type="%s" href="%s" title="%s" />` 
+      .Rel .MediaType.Type .Permalink $.Site.Title | 
+      safeHTML }}
+    {{- end -}}
+
+  </head>
+  <body>
+
+    {{ block "title" . -}}
+    <header>DEFAULT TITLE</header>
+    {{- end }}
+
+    {{ block "main" . }}
+    <div class="grid">
+      <main class="page-content" aria-label="Content">
+        <div class="wrapper">                
+          DEFAULT MAIN
+        </div>
+      </main>
+
+    </div>
+    {{ end }}
+  </body>
+
+</html>
