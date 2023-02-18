@@ -2,6 +2,7 @@
 layout: post
 title:  "Passwords Considered Harmful"
 date:   2019-09-16
+lastmod: 2023-02-18
 tags: security, privacy, passwords, harmful, on-topic
 ---
 
@@ -71,11 +72,14 @@ I've already put my money where my mouth is[^6]. [MechMark] is a webapp I wrote
 in a weekend to track who has mechnical keyboard parts they can sell to fellow
 makers/builders. It doesn't use passwords at all, instead it'll log you in via
 token sent to your email. (If you're first instinct is to complain that's not
-secure, be honest, you were going to let anyone with access to the users
-email reset the password anyways.) The [source] is on GitHub if you want to take
-a look.
+secure, be honest, you were going to let anyone with access to the users email
+reset the password anyways.) The [source] is on GitHub if you want to take a
+look.
 
-[^6]: [6] "HEY... This isn't really a considered harmful essay, it's shameless
-  self promotion!" -- [Why not both](/assets/both.gif)? [MechMark]:
-  https://mechmark.bsdev.net [source]: https://github.com/GrayHatter/MechMark/
+[^6]: [6] "HEY... This isn't really a considered harmful, it's shameless self
+  promotion!" -- [Why not both](/assets/both.gif)?
+
+[MechMark]: https://mechmark.bsdev.net
+
+[source]: https://github.com/GrayHatter/MechMark/
 
