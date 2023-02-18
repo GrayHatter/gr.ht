@@ -1,9 +1,10 @@
----
-layout: post
-title:  "It seemed like a good idea at the time..."
-date:   2019-06-09
-tags: at-the-time
----
++++
+layout = "post"
+title = "It seemed like a good idea at the time..."
+date = 2019-06-09
+tags = ["at-the-time"]
++++
+
 Context: While working on wifi functionality for HUDTDS (heads up display that doesn't suck), because `iw` warns not to
 screen scrape, I looked into exactly how it works and learned about a cool thing you can do. Because I've never seen
 anything like this, I thought it was interesting.

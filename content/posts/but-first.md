@@ -1,13 +1,14 @@
----
-layout: post
-title: But first; cut the red wire!
-email: redwire
-date: 2023-02-18
-tags: data, on-topic
++++
+layout = "post"
+title = "But first; cut the red wire!"
+email = "redwire"
+date = 2023-02-18
+tags = ["data", "on-topic"]
 
-summary: I don't know who needs to read this, But warnings go **BEFORE** the
-  content/instructions they're connected to.
----
+summary = """
+I don't know who needs to read this, But warnings go **BEFORE** the
+content/instructions they're connected to."""
++++
 
 I don't know who needs to read this, But warnings go **BEFORE** the
 content/instructions they're connected to. A distant second, is *immediately*

@@ -1,10 +1,10 @@
----
-layout: post
-title:  "Passwords Considered Harmful"
-date:   2019-09-16
-lastmod: 2023-02-18
-tags: security, privacy, passwords, harmful, on-topic
----
++++
+layout = "post"
+title = "Passwords Considered Harmful"
+date = 2019-09-16
+lastmod = 2023-02-18
+tags = ["security", "privacy", "passwords", "harmful", "on-topic"]
++++
 
 Passwords, plainly, are not only bad at their intended purpose, but nearly
 everyone is incapable of using them correctly. That includes both developers,

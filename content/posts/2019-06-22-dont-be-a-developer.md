@@ -1,9 +1,10 @@
----
-layout: post
-title:  "You don't want to be a developer"
-date:   2019-06-22
-tags: security, code, old-man
----
++++
+layout = "post"
+title = "You don't want to be a developer"
+date = 2019-06-22
+tags = ["security", "code", "old-man"]
++++
+
 You don't want to be a software developer. Or at least *I* don't want you to
 be, I want you to be a software engineer. It may seem to be simply a semantic
 difference, but it's an important one. Developers write a lot of software,

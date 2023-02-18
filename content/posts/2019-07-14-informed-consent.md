@@ -1,13 +1,13 @@
----
-layout: post
-title:  "Informed Consent"
-email: infcon
-date:   2019-07-14
-publishdate: 2019-07-14
-lastmod: 2023-02-17
++++
+layout = "post"
+title = "Informed Consent"
+email = "infcon"
+date = 2019-07-14
+publishdate = 2019-07-14
+lastmod = 2023-02-17
 
-tags: security, privacy, on-topic
----
+tags = ["security", "privacy", "on-topic"]
++++
 
 In news that's surprising to no one who'd read this. [OK Google Voice recordings
 leaked](https://arstechnica.com/information-technology/2019/07/google-defends-listening-to-ok-google-queries-after-voice-recordings-leak/)
