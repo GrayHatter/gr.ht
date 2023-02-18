@@ -1,22 +1,12 @@
-{{ define "title" }}
-<header>
-  <h1 class="page-title">{{ .Title }}</h1>
-  {{ if isset .Author "DisplayName" }}
-  <p>Written by {{ .Author.DisplayName }}</p>
-</header>
-{{ end }}
-{{ end }}
-
 {{ define "main" }}
 <div class="grid">
   <main class="page-content" aria-label="Content">
     <div class="wrapper">
       <div class="home">
-        {{ .Content }}
         <ul class="post-list">
-          {{ range .Site.RegularPages }}
+          {{- range .Site.RegularPages }}
           <li>
-            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <h3><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h3>
             <p>{{ .Summary }}</p>
           </li>
           {{ end }}
@@ -25,6 +15,7 @@
       </div>
     </div>
   </main>
+
   <footer>
     <h3>Who?</h3>
 

@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="/static/fonts.css">
     <link rel="stylesheet" href="/static/main.css">
     {{ range .AlternativeOutputFormats -}}
-      {{- printf `<link rel="%s" type="%s" href="%s" title="%s" />` 
-      .Rel .MediaType.Type .Permalink $.Site.Title | 
+      {{- printf `<link rel="%s" type="%s" href="%s" title="%s" />`
+      .Rel .MediaType.Type .Permalink $.Site.Title |
       safeHTML }}
     {{- end -}}
 
@@ -18,13 +18,18 @@
   <body>
 
     {{ block "title" . -}}
-    <header>DEFAULT TITLE</header>
+    <header>
+      <h1 class="page-title">{{ .Title | markdownify }}</h1>
+      {{ if isset .Author "DisplayName" -}}
+      <p>Written by {{ .Author.DisplayName }}</p>
+      {{- end }}
+    </header>
     {{- end }}
 
     {{ block "main" . }}
     <div class="grid">
       <main class="page-content" aria-label="Content">
-        <div class="wrapper">                
+        <div class="wrapper">
           DEFAULT MAIN
         </div>
       </main>

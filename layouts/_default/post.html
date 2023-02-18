@@ -1,6 +1,6 @@
 {{ define "title" }}
 <header>
-  <h1 class="page-title">{{ .Title }}</h1>
+  <h1 class="page-title">{{ .Title | markdownify }}</h1>
   <p class="post-meta">
     <time class="dt-published" datetime="{{ .Date  }}">
       {{- .Date | time.Format "Jan 2, 2006" -}}

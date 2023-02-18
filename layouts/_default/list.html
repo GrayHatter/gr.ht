@@ -1,23 +1,58 @@
----
-layout: index
----
 {{ define "main" }}
-<div class="home">
-
-  {{ .Content }}
-
-    <ul class="post-list">
-      {{ range .Site.Pages }}
-      <li>
-        <h3>
-            {{ .Title }}
-        </h3>
-        {{ if .IsHome }}
-          {{ .Summary | plainify }}
+<div class="grid">
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <div class="home">
+        <ul class="post-list">
+          {{- range .Pages }}
+          <li>
+            <h3><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h3>
+            <p>{{ .Summary }}</p>
+          </li>
           {{ end }}
-      </li>
-      {{ end }}
-    </ul>
+        </ul>
 
-</div>
-{{ end }}
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <h3>Who?</h3>
+
+    <p>I pretend to be a security geek. I also write code, sometimes maybe good, sometimes maybe shit!</p>
+    <div class="external-links">
+      <p>
+      <span class="context">github</span><br>
+      <a href="https://github.com/grayhatter">github.com/grayhatter</a>
+      </p>
+      <p>
+      <span class="context">email</span><br>
+      <a href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
+      </p>
+    </div>
+
+    <h3>Projects</h3>
+    <div class="active-projects">
+      <p>
+      <a href="https://git.cmdline.org/~grayhatter/hudtds">HUDTDS</a><br>
+      Heads up display; that doesn't suck. Replacement infotainment system for build in car displays
+      </p>
+    </div>
+
+
+    <h3>License</h3>
+    <div class="license">
+      <p>The content for this site is <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a></p>
+    </div>
+
+
+    <p class="feed-subscribe">
+    {{ with $.OutputFormats.Get "rss" -}}
+    {{- printf `<a rel="%s" type="%s" href="%s" title="%s" />RSS</a>`
+       .Rel .MediaType.Type .Permalink $.Site.Title |
+       safeHTML -}}
+    {{ end -}}
+    </p>
+
+  </footer>
+  {{ end }}
