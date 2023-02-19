@@ -10,3 +10,7 @@ enableRobotsTXT = true
 [permalinks]
 	posts = '/:year/:month/:day/:slug'
 	'/' = '/:year/:month/:filename.html'
+
+
+[markup.goldmark.renderer]
+unsafe = true
