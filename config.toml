@@ -5,7 +5,7 @@ uglyurls = true
 enableRobotsTXT = true
 [params]
 	email = 'grht@gr.ht'
-	author.displayname = 'Gregory Mullen'
+	author.displayname = 'Gray Hatter'
 
 [permalinks]
 	posts = '/:year/:month/:day/:slug'
