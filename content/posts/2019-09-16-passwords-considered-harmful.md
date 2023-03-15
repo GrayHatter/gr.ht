@@ -2,8 +2,9 @@
 layout = "post"
 title = "Passwords Considered Harmful"
 date = 2019-09-16
-lastmod = 2023-02-18
+lastmod = 2023-03-14
 tags = ["security", "privacy", "passwords", "harmful", "on-topic"]
+email = "passwordsharmful"
 +++
 
 Passwords, plainly, are not only bad at their intended purpose, but nearly
@@ -12,15 +13,15 @@ and users. Meanwhile they're a constant security risk, not only because
 individual passwords can be broken, stolen, guessed, or given away. But also
 because, if you have no other data than email and password pairs you do have
 something worth stealing. Painting an even larger target on your back. It's time
-to stop using password for authentication. Passwords are now considered harmful,
-and you shouldn't use them anymore.
+to stop using password for authentication. Passwords should be considered harmful,
+and you should avoid them whenever possible!
 
-First, consider what problem passwords solve. User authentication. No, really!
-That's it, that's all they're good for[^1] [^2]. Passwords are shared secret
-between the server and the client. I have to start with this because I've had to
-dispel the notion that they have something to do with authorization. But that's
-different problem entirely. A user account may be authorized to do many things,
-but each only has a single password.
+First, consider what problem passwords solve. User authentication. No, really,
+that's it! That's the only thing they're good for[^1] [^2]. Passwords are shared
+secret between the server and the client. I have to start with this because I've
+had to dispel the notion that they have something to do with authorization. But
+that's different problem entirely. A user account may be authorized to do many
+things, but each only has a single password.
 
 [^1]: [1] Ok, that's not the only thing, passwords are also useful as a [Duress
   Code](https://en.wikipedia.org/wiki/Duress_code)
@@ -68,18 +69,19 @@ about that. It time to stop using passwords.
 
 [^5]: [5] Please don't let it be a post-it note!
 
-I've already put my money where my mouth is[^6]. [MechMark] is a webapp I wrote
-in a weekend to track who has mechnical keyboard parts they can sell to fellow
-makers/builders. It doesn't use passwords at all, instead it'll log you in via
-token sent to your email. (If you're first instinct is to complain that's not
-secure, be honest, you were going to let anyone with access to the users email
-reset the password anyways.) The [source] is on GitHub if you want to take a
-look.
+I've already put my money where my mouth is[^6]. ~~MechMark~~[^7] is a webapp I
+wrote in a weekend to track who has mechnical keyboard parts they can sell to
+fellow makers/builders. It doesn't use passwords at all, instead it'll log you
+in via token sent to your email. (If you're first instinct is to complain that's
+not secure, be honest, you were going to let anyone with access to the users
+email reset the password anyways.) The [source] is on GitHub if you want to take
+a look.
 
 [^6]: [6] "HEY... This isn't really a considered harmful, it's shameless self
   promotion!" -- [Why not both](/assets/both.gif)?
 
-[MechMark]: https://mechmark.bsdev.net
+[^7]: I'm not currently hosting or working on it, I got distracted by other
+  shiny projects. 
 
 [source]: https://github.com/GrayHatter/MechMark/
 
