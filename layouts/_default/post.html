@@ -8,8 +8,7 @@
     <span itemprop="author" itemtype="http://schema.org/Person">
       <span class="p-author h-card" itemprop="name">
         <a href="{{ .Site.BaseURL }}">
-          {{- .Author.DisplayName |
-          default .Site.Params.Author.DisplayName |
+          {{- .Params.Author | default .Site.Params.Author |
           default "anonymous" | htmlEscape -}}
         </a>
       </span>

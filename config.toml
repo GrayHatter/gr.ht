@@ -5,7 +5,7 @@ uglyurls = true
 enableRobotsTXT = true
 [params]
 	email = 'grht@gr.ht'
-	author.displayname = 'Gray Hatter'
+	Author = 'Gray Hatter'
 
 [permalinks]
 	posts = '/:year/:month/:day/:slug'
@@ -14,3 +14,8 @@ enableRobotsTXT = true
 
 [markup.goldmark.renderer]
 unsafe = true
+
+
+[taxonomies]
+tag = "tags"
+author = "author"

@@ -20,9 +20,6 @@
     {{ block "title" . -}}
     <header>
       <h1 class="page-title">{{ .Title | markdownify }}</h1>
-      {{ if isset .Author "DisplayName" -}}
-      <p>Written by {{ .Author.DisplayName }}</p>
-      {{- end }}
     </header>
     {{- end }}
 
