@@ -92,6 +92,11 @@ footer {
     font-size: 80%;
 
 }
+
+.footnote-ref {
+    padding-right: 0.2em;
+}
+
 ul {
     list-style: circle;
 }
