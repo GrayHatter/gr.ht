@@ -9,7 +9,7 @@ enableRobotsTXT = true
 
 [permalinks]
 	posts = '/:year/:month/:day/:slug'
-	'/' = '/:year/:month/:filename.html'
+	'/' = '/:filename'
 
 
 [markup.goldmark.renderer]
