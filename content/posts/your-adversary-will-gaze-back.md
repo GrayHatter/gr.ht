@@ -109,7 +109,7 @@ if you want extra points. Mix in a bit of noise into your signal. The harder it
 is to doxx your security services, the longer it'll take before they break them.
 
 Bonus tip: Be careful of the company you keep. It doesn't do any good to try to
-obscure who you really are, if you friend always follows you everywhere you go.
+obscure who you really are, if your friend always follows you everywhere you go.
 
 ```
 127.0.0.1 - [2023-05-17 18:14:10] gr.ht "GET /assets/wtfit.gif HTTP/1.1" 200 917653 "Mozilla/5.0 (compatible; [REDACTED]/2.0; +https://[REDACTED].com)" "-"
