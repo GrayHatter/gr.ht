@@ -215,14 +215,21 @@ ul.post-list {
     font: italic 14px 'Open Sans', sans-serif;
     margin-bottom: 0.25rem;
 }
-code {
+p code {
     display: inline-block;
     border: 1px solid #555;
     background-color: #333;
     font-size: .9rem;
-    padding: 1px;
-    margin: 2px;
 }
+pre code {
+    display: inline-block;
+    border: 1px solid #555;
+    background-color: #333;
+    font-size: .9rem;
+    padding: 0.9em;
+    margin: 2em 0 2em 2em;
+}
+
 /* .highlight{background:#fff}
 .highlighter-rouge .highlight{background:#eef}
  */
