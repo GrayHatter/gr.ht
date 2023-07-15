@@ -30,7 +30,7 @@ choice, shouldn't everyone choose to write open-source code? Yes, effectively
 everyone who's given the choice does choose to write open-source code. The
 reason proprietary code exists is because the choice most software developers
 are given is between "write code for a FOSS project," or have enough food to
-eat, and a place to live, with enough money support loved ones. Well, a false
+eat, and a place to live, with enough money to support loved ones. Well, a false
 choice doesn't actually count as a choice at all.
 
 Given these options, charging for proprietary software is the only reasonable
@@ -62,7 +62,7 @@ shock. They're unable to see the value their work is able to bring to others.
 I know that I'm guilty of this myself. I'm not always going to be able to
 understand the value my work brings to others. And that's ok, It's not for me to
 decide how much value people get from my work. Despite the idea that logic and
-creativity are polar opposites. Coders are creative people, and writing code is
+creativity are polar opposites, coders are creative people, and writing code is
 innately a creative endeavor. The parallels continue, similar to the idea it's
 not the artists responsibility to tell someone how they should feel about some
 art, or what it's supposed to mean. Value means many different things to many
@@ -72,7 +72,7 @@ donate thousands of hours.
 Open-source, or perhaps software in general, is just barely starting to come to
 this understanding itself. The culture around art is that of giving. To many of
 us writing software, we are still stuck with the malignant idea that asking is
-shameful, or that donations are some how unfair. That idea is brain-dead! [It
+shameful, or that donations are somehow unfair. That idea is brain-dead! [It
 **is** fair](https://www.youtube.com/watch?v=xMj_P_6H69g), don't be tricked by
 it just because it's common, and where possible try not to allow anyone else to
 be tricked by it either. 
