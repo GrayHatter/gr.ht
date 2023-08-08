@@ -10,7 +10,7 @@ summary = """"""
 I rarely *enjoy* using free and open-source software. Which I admit seems very
 counter-intuitive given how often I proselytize FOSS, and how much I attempt to
 use **only** FOSS. I'm absolutely convinced that FOSS is the simplest way to
-write ethical software. So if that is true, how can I say I don't enjoy using 
+write ethical software. So if that is true, how can I say I don't enjoy using
 it?
 
 The simplistic answer is the same for why seemingly everyone chooses proprietary
@@ -21,7 +21,7 @@ all could be very easy to fix given someone spends the time. And there's the
 problem. Free and open-source software, usually meets all meanings for the word
 free. Only until you consider the time-cost to create that software. Proprietary
 software isn't better, it's only they're more likely to be able to afford to
-fund the extra time required. 
+fund the extra time required.
 
 [^yt]: It's also part of why I'm linking to a proprietary video site. :/
 
@@ -67,7 +67,7 @@ innately a creative endeavor. The parallels continue, similar to the idea it's
 not the artists responsibility to tell someone how they should feel about some
 art, or what it's supposed to mean. Value means many different things to many
 different people. It's why some donate thousands of dollars, while others
-donate thousands of hours. 
+donate thousands of hours.
 
 Open-source, or perhaps software in general, is just barely starting to come to
 this understanding itself. The culture around art is that of giving. To many of
@@ -75,7 +75,7 @@ us writing software, we are still stuck with the malignant idea that asking is
 shameful, or that donations are somehow unfair. That idea is brain-dead! [It
 **is** fair](https://www.youtube.com/watch?v=xMj_P_6H69g), don't be tricked by
 it just because it's common, and where possible try not to allow anyone else to
-be tricked by it either. 
+be tricked by it either.
 
 Some of the experts in writing free open-source software have not only proven
 that you can live the life you want to live by accepting donations, but they've
@@ -93,7 +93,7 @@ same, even if you're fortunate enough that you don't need the money, or perhaps
 open-source code, take the time to allow your users to donate to you and your
 projects. You may not need the money, but someone else writing good software
 that I need in my life might; and they [may not be able to
-ask](https://youtu.be/xMj_P_6H69g?t=402). 
+ask](https://youtu.be/xMj_P_6H69g?t=402).
 
 
 [^caveat]: I'm not currently accepting any money. Just donations, anything
