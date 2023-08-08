@@ -5,10 +5,12 @@
       <div class="home">
         <ul class="post-list">
           {{- range .Pages }}
+          {{- if not .Params.draft -}}
           <li>
             <h3><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h3>
             <p>{{ .Summary }}</p>
           </li>
+          {{- end -}}
           {{ end }}
         </ul>
 
