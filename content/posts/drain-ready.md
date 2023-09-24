@@ -3,12 +3,14 @@ layout = "post"
 title = "Keep Yourself Drain Ready"
 email = "drainready"
 date = 2023-08-08
-draft = true
+lastmod = 2023-09-24
+draft = false
 tags = ["off-topic", "balance", "human"]
 
 
-summary = """You have an, ethical, moral, and professional responsibility to
-keep yourself drain ready at all times."""
+summary = """You have a direct personal, professional, and ethical
+responsibility to keep yourself drain ready at all times.""" 
+
 +++
 
 I used to work for a big data company. One of the responsibilities I had, was to
@@ -71,16 +73,7 @@ a rule! The decision can *not* be, "what will I ignore unless it's really
 important." It **must** be "What will I ignore so I can save my attention for
 the more important stuff".
 
-Avoiding a black start is an emergency situation, something has already gone
-wrong, and now you're in triage mode. There are now more problems than there are
-people who are able to work on resolving said problems. Which means, priority 0
-is now not allowing yourself to become an additional problem. If you lose the
-ability to help, you're only going to make everything worse, for everyone. Don't
-allow yourself to get there! Start **your** load shedding procedures, and start
-ignoring everything you need to make sure you're doing a good job at what does
-have your attention!
-
-### Your Drain Readiness
+### My Drain Readiness
 
 I can still clearly recall the sudden feeling of unease, back at
 `$BIGDATACOMPANY` I was sitting in a meeting with a number of engineers, when a
@@ -101,20 +94,39 @@ wanted to trust was already at, or over the capacity they should have. My first
 reaction was much closer to disappointment, that there wasn't anyone I could
 trust to help. But that was short lived, and replaced by that feeling of dread
 when I realized, that I wouldn't have been able to volunteer either. I wasn't
-drain ready myself.
+drain ready myself, I was *way* to close to redline. 
+
+### Your Drain Readiness
+
+Avoiding a black start is an emergency situation, something has already gone
+wrong, and now you're way past just triage mode. There are now more problems
+than there are people who are able to work on resolving said problems. Which
+means, priority 0 is now not allowing yourself to become an additional problem.
+If you lose the ability to help, you're only going to make everything worse, for
+everyone. Don't allow yourself to get there! Start **your** load shedding
+procedures, and start deliberately ignoring everything you need to make sure
+you're doing a good job at what does have your attention!
 
 No matter how perfect the metrics you use to predict how capable you are as an
 individual, or how excellent you are at triaging under stress, unless you're
 omniscient, there still might be something much more important around the corner
 that you didn't predict. And if it's something important to you, that's the only
-thing that should get your attention first. And don't allow yourself to make the
+thing that should get your attention. So don't allow yourself to make the
 mistake that I made, just because you have some personal buffer you can tap
 into, that doesn't mean you're drain ready. If you spend your personal buffer,
 you've just lost the ability to protect yourself, which also means you've lost
 the ability to prevent yourself, and the problems you were fixing from dropping
 on top of someone else.
 
+And now, I'm going to say the exact same thing again, because everyone thinks
+they're fine because they're not even at their capacity yet. But that's the
+whole point! You're not drain ready if you're still "under capacity"! You're
+**only** drain ready when you can cut a **full 4 hours** from your day[^sleep],
+every day for a few weeks and still be within your personal capacity. 
 
 
 
+[^sleep]: If you lost 4 hours, what would you cut out? I'd bet for a lot of us
+    the first on the list is sleep. How long could you be you with 4 hours less
+    sleep? How many of us are now getting negative sleep?
 
