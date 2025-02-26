@@ -12,9 +12,9 @@ everyone is incapable of using them correctly. That includes both developers,
 and users. Meanwhile they're a constant security risk, not only because
 individual passwords can be broken, stolen, guessed, or given away. But also
 because, if you have no other data than email and password pairs you do have
-something worth stealing. Painting an even larger target on your back. It's time
-to stop using password for authentication. Passwords should be considered harmful,
-and you should avoid them whenever possible!
+something worth stealing. Painting an even larger target on your back.
+<!--more--> It's time to stop using password for authentication. Passwords
+should be considered harmful, and you should avoid them whenever possible!
 
 First, consider what problem passwords solve. User authentication. No, really,
 that's it! That's the only thing they're good for[^1] [^2]. Passwords are shared

@@ -9,6 +9,8 @@ Context: While working on wifi functionality for HUDTDS (heads up display that d
 screen scrape, I looked into exactly how it works and learned about a cool thing you can do. Because I've never seen
 anything like this, I thought it was interesting.
 
+<!--more-->
+
 Have you ever wanted to add a series of structs to your application, but enumerating them all in a single location
 seems like way too much work? Well you're in luck! There's a GNU extension that allows you to create your own named
 object segments. Anything you declare with `__attribute__ (( segment("__named") ))` will be stored in it's own segment.

@@ -8,7 +8,7 @@
           {{- if not .Params.draft -}}
           <li>
             <h3><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h3>
-            <p>{{ .Summary }}</p>
+            <p>{{ .Summary | plainify }}</p>
           </li>
           {{- end -}}
           {{ end }}
@@ -24,20 +24,35 @@
     <p>I pretend to be a security geek. I also write code, sometimes maybe good, sometimes maybe shit!</p>
     <div class="external-links">
       <p>
-      <span class="context">github</span><br>
-      <a href="https://github.com/grayhatter">github.com/grayhatter</a>
+        <span class="context">srctree</span><br>
+        <a href="https://srctree.gr.ht/">srctree.gr.ht</a>
       </p>
+
+
       <p>
-      <span class="context">email</span><br>
-      <a href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
+        <span class="context">github</span><br>
+        <a href="https://github.com/grayhatter">github.com/grayhatter</a>
+      </p>
+
+      <p>
+        <span class="context">email</span><br>
+        <a href="mailto:{{ .Site.Params.Email }}">{{ .Site.Params.Email }}</a>
       </p>
     </div>
 
     <h3>Projects</h3>
     <div class="active-projects">
       <p>
-      <a href="https://github.com/GrayHatter/hudtds">HUDTDS</a><br>
-      Heads up display; that doesn't suck. Replacement infotainment system for build in car displays
+      <a href="https://srctree.gr.ht/repo/srctree">srctree</a><br>
+      <span class="context">srctree.gr.ht/repo/srctree</a><br>
+        Code sharing and sync that doesn't break the back button. Think github,
+        but actually good.
+      </p>
+    </div>
+    <div class="stale-project">
+      <p>
+        <a href="https://github.com/GrayHatter/hudtds">HUDTDS</a><br>
+        Heads up display; that doesn't suck. Replacement infotainment system for build in car displays
       </p>
     </div>
 

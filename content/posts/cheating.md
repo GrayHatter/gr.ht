@@ -15,20 +15,20 @@ The general consensus is the problem is getting worse, and rarely better. Escape
 From Tarkov clearly has a cheating problem.
 
 Now this isn't a problem that's unique to EFT, but prevalent throughout not only
-all online games, but all online systems. The issue for EFT now is that cheating
-has become 'especially noticeable' in most recent patch. It feels as if the
-baddies are winning this patch[^1]. Not exactly ideal -- but it is something
-that's to be expected, because there will always be cheaters, right? As I write
-this I feel as if I should try to preempt the whole "well we can't win so we
-might as well give up" idea. The people preventing users from abusing systems,
-the good guys, they have to be perfect, every single time. Where the abusers,
-they only have to be right once to win any given battle. It's an arms race, one
-where even the largest online services have given up on the goal of attempting
-to prevent people from abusing their services. If even the largest, best funded
-services have given up on trying to prevent abuse, Why shouldn't everyone with
-an internet facing service cry that; "the only winning move is not to play"?
-That's because winning the fight against cheaters really doesn't matter. Well,
-kind of, let me explain.
+all online games, but all online systems. <!--more--> The issue for EFT now is
+that cheating has become 'especially noticeable' in most recent patch. It feels
+as if the baddies are winning this patch[^1]. Not exactly ideal -- but it is
+something that's to be expected, because there will always be cheaters, right?
+As I write this I feel as if I should try to preempt the whole "well we can't
+win so we might as well give up" idea. The people preventing users from abusing
+systems, the good guys, they have to be perfect, every single time. Where the
+abusers, they only have to be right once to win any given battle. It's an arms
+race, one where even the largest online services have given up on the goal of
+attempting to prevent people from abusing their services. If even the largest,
+best funded services have given up on trying to prevent abuse, Why shouldn't
+everyone with an internet facing service cry that; "the only winning move is not
+to play"? That's because winning the fight against cheaters really doesn't
+matter. Well, kind of, let me explain.
 
 [^1]: [1]: Depending on who you listen to, every patch is the worst patch for
   cheating, this just happens to be the one where cheaters are allowed to both

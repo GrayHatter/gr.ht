@@ -15,9 +15,9 @@ Yet, this is still breaking news. When I first read this story, I felt
 bad for the people who were contacted for comment by the news reporting agency
 who broke this story. It's not hard to imagine that they were surprised that the
 device was recording their conversation, especially given that they didn't even
-say the keyword. I'd bet it was even more surprising that it contained enough
-information for a reporter to find and contact them. That level of invasion of
-privacy is a pretty hard hit to just absorb.
+say the keyword. <!--more--> I'd bet it was even more surprising that it
+contained enough information for a reporter to find and contact them. That level
+of invasion of privacy is a pretty hard hit to just absorb.
 
 I, obviously, wasn't surprised, but even given the base technical level of most
 users, they shouldn't have been surprised either. I don't think it shouldn't be
