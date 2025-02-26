@@ -2,8 +2,8 @@
 layout = "post"
 title = "Say The Thing"
 email = "saythething"
-date = 2025-02-25
-tags = ["life", "code", "off-topic"]
+date = 2025-02-26
+tags = ["life", "off-topic"]
 +++
 
 In the long long ago, I used to be an EMT. I've picked up a lot of good stories
