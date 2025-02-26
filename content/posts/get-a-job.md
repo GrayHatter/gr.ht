@@ -14,14 +14,14 @@ write ethical software. So if that is true, how can I say I don't enjoy using
 it?
 
 The simplistic answer is the same for why seemingly everyone chooses proprietary
-software; it's just easier[^yt]. There's clearly a large quality gap between
-FOSS and Proprietary code. Maybe it's prettier, maybe it crashes less, maybe it
-has that one feature you need. Truth be told, none of these are hard problems,
-all could be very easy to fix given someone spends the time. And there's the
-problem. Free and open-source software, usually meets all meanings for the word
-free. Only until you consider the time-cost to create that software. Proprietary
-software isn't better, it's only they're more likely to be able to afford to
-fund the extra time required.
+software; it's just easier[^yt]. <!--more--> There's clearly a large quality gap
+between FOSS and Proprietary code. Maybe it's prettier, maybe it crashes less,
+maybe it has that one feature you need. Truth be told, none of these are hard
+problems, all could be very easy to fix given someone spends the time. And
+there's the problem. Free and open-source software, usually meets all meanings
+for the word free. Only until you consider the time-cost to create that
+software. Proprietary software isn't better, it's only they're more likely to be
+able to afford to fund the extra time required.
 
 [^yt]: It's also part of why I'm linking to a proprietary video site. :/
 
