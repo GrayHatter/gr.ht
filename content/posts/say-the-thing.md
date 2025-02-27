@@ -72,7 +72,7 @@ I'm sorry, what?!
 He had no problem making that assertion, and we all knew he was right. Everyone
 fell into his trap, because everyone knew their first order, primary reason,
 fundamental motivation, for joining this course, for starting training to become
-an EMT; was because each of us where there because we wanted to save lives.
+an EMT; was because each of us were there because we wanted to save lives.
 
 But not a single one of us gave that as our answer. We all correctly "failed"
 our interview that day. Thankfully, that day was just a lesson. It feels
@@ -106,4 +106,14 @@ That's the most important reason. It *deserves* to be said first. And your users
 deserve to be listed **first**. As much as it hurts me to admit, we all live in
 a world, where everyone, somehow, wrongly believes, *the line must go up!* Yes,
 it's better when the line goes up, but not when it's at the expense of other
-humans. So, always... Say the important thing first!
+humans. So, always... Say the important thing first[^nb]!
+
+[^nb]: [3] nota bene; That's actually the way language has to work. You *only* say
+    the important thing first. So no matter what you do choose to say, everyone
+    will take away what you listed first, as the most important thing. If you
+    list "making money" first, or "showing ads", or "increasing engagement" as
+    the first change. Everyone will slowly start to adjust not only their
+    targets, but also their thinking. That's a bad thing. Think of it as a
+    reverse [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law).
+    Everyone will slowly adapt to targeting that first. What do you want that
+    thing to be?
