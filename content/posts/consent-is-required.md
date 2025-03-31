@@ -1,11 +1,13 @@
 +++
 layout = "post"
-title = "Consent is required"
-email = "consent-required"
+title = "Consent Is Required"
+email = "consentrequired"
 date = 2025-03-29
 tags = ["off-topic", "ethics", "consent", "trust"]
 draft = true
-# summary = """"""
+summary = """As I sit here trying to write this intro, I wonder how many more times someone
+is going to remind me exactly how important consent is, or remind me how easy it
+is to lose sight over how much influence any individual has over another."""
 +++
 
 As I sit here trying to write this intro, I wonder how many more times someone
@@ -20,13 +22,19 @@ for it, the more I see software engineers, or the systems they drive, ignore
 consent. This is bad, and collectively we should be embarrassed enough to do
 something.
 
+Opinions differ[^difficulty] on what exactly counts as consent. I'd venture to
+guess it gets even more complicated when it comes to software. I'm sure that
+contributes to why TOS are so unparseable by people required to agree to them,
+that there's even a website dedicated to explaining common ones[^dislike]. What
+does consent look like when it's software in between? If someone continues to
+use the software, isn't that consent? No, it's not. 
 
-Opinions differ[^difficulty] on what exactly counts as consent.
+[^difficulty]: Mine don't; clearly communicated agreement with disclosure. It's
+    not hard, **consider the other human too!**
 
-[^difficulty]: Mine don't.
-
-
-
+[^dislike]: It's [TOS;DR](https://tosdr.org/), which I elect to only link here
+    because I disagree with a number of it's conclusions and assertions. I still
+    applaud the attempt.
 
 
 
@@ -42,4 +50,3 @@ https://support.discord.com/hc/en-us/articles/12654190110999-New-Mobile-App-Upda
 
 
 
-`
