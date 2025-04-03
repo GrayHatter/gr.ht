@@ -36,8 +36,46 @@ use the software, isn't that consent? No, it's not.
     because I disagree with a number of it's conclusions and assertions. I still
     applaud the attempt.
 
+In something that I'm sure isn't a shock to those I expect to read this. I'm
+gonna use an example from healthcare again. For any significant procedure,
+there's someone who's been assigned to collect a signature on the paper that
+will make the hospital's lawyers happy. But the patient signing their agreement
+on the "terms of service" for the treatment, isn't where consent ends. Consent
+is more than just tick this checkbox and then tap submit. Healthcare has
+learned, many times through mistakes; about what consent really means to the
+humans they treat[^humans]. It's easy to put any one into a situation where
+they'll "agree" to something. Only to then feel taken advantage of, or abused.
+Abused by people who day job is literally to save their life, and help them
+heal. One of the most common reasons cited is; 
 
+[^humans]: We're talking about medicine here because they better at
+    understanding what they do to humans. Their interactions with humans aren't
+    abstracted away by vscode.
 
+> I didn't understand what was going on.
+
+That's it, no one talked to them, no one told them what to expect, patents under
+a significant amount of stress, who ostensibly trusted the people taking care of
+them. Would feel victimized simple because they know what was going on. The end
+result from some treatment with the primary goal of improving their health left
+feeling abused. This isn't the experience of patents when someone is
+consistently talking to them, explaining them what's gonna happen next.
+Reminding them during difficult procedures that they can ask to take a break if
+they need it. Those patients leave from the exact same exchange feeling cared
+about, and taken care of. Simply telling someone what to expect before it
+happens, and importantly giving them the option to opt out. It might be shocking
+to your average software engineer how far treating users with just a little bit
+respect will go.
+
+Serendipitously I happen to come across this photo when doing something
+completely unrelated to writing this.
+
+[Photo of Microsoft getting consent]
+
+This is consent right? Permission freely given? 
+
+The last medical procedure I participated in was one of my own. It was an MRI
+with contrast of my shoulder. 
 
 > Q: Can I go back to the original mobile app layout?
 
