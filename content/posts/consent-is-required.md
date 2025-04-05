@@ -70,12 +70,19 @@ respect will go.
 Serendipitously I happen to come across this photo when doing something
 completely unrelated to writing this.
 
-[Photo of Microsoft getting consent]
 
-This is consent right? Permission freely given? 
+![How Microsoft asks for consent](/assets/ms-consent.png)
+
+This is consent right? Permission freely given, with a fair opportunity to
+decline or otherwise opt out?
+
+![How Alphabet asks for consent](/assets/goog-consent.png)
 
 The last medical procedure I participated in was one of my own. It was an MRI
 with contrast of my shoulder. 
+
+Now's probably the place where I'm supposed to describe the catalyst for this
+rant. [Discord]
 
 > Q: Can I go back to the original mobile app layout?
 
@@ -87,4 +94,21 @@ with contrast of my shoulder.
 https://support.discord.com/hc/en-us/articles/12654190110999-New-Mobile-App-Updates-Layout
 
 
+If that was just the catalyst, what is the real reason. The real reason is from
+my disappointment watching sr.ht hurt itself in it's anger.
 
+![How source hut asks for consent](/assets/sr.ht-consent.png)
+
+sr.ht became confused.
+
+sr.ht used Anubis; it's not very effective...
+
+sr.ht hurt itself in its confusion.
+
+```
+43.128.149.102 - [03/Apr/2025:15:48:20 +0000] "GET /repo/dns/commit/43edea6e HTTP/1.1" 200 932 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+34.145.110.128 - [05/Apr/2025:18:03:29 +0000] "GET /repo/srctree/tree/srcapi HTTP/2.0" 200 1650 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+34.83.184.238 - [05/Apr/2025:16:31:18 +0000] "GET /repos/gak/issues HTTP/2.0" 200 494 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+35.197.78.148 - [05/Apr/2025:16:31:52 +0000] "GET /repo/mqtt/diffs/new HTTP/2.0" 200 639 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+35.203.140.140 - [05/Apr/2025:16:55:49 +0000] "GET /repo/srctree/issues/d HTTP/2.0" 200 564 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+```
