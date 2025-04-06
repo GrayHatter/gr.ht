@@ -9,4 +9,20 @@ draft = true
 # summary = """"""
 +++
 
+DOD talk, main memory, cpu prediction
+
+skill issue?
+
+comptime is awesome
+
+enjoy writing code
+
+zig zen
+
+it's done when there's nothing left to take away
+
+dark slice magic
+
+never fight the compiler
+
 
