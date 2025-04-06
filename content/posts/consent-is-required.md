@@ -10,17 +10,18 @@ is going to remind me exactly how important consent is, or remind me how easy it
 is to lose sight over how much influence any individual has over another."""
 +++
 
-As I sit here trying to write this intro, I wonder how many more times someone
-is going to remind me exactly how important consent is, or remind me how easy it
-is to lose sight over how much influence any individual has over another. In
-addition to how easy it is to miss the connections between some action and it's
-outcome; the more layers of indirection required as any system increase in size,
-the harder it becomes to even describe how, or who plays which part. The ease at
-which anyone might forget, or how the difficulty grows as the system becomes
-more complex, doesn't seem to be the part that irks me. Sadly, the more I look
-for it, the more I see software engineers, or the systems they drive, ignore
-consent. This is bad, and collectively we should be embarrassed enough to do
-something.
+As I sit here attempting to decide what exactly belongs in this intro, I wonder
+how many more times someone is going to remind me exactly how important consent
+is, or remind me how easy it is to lose sight over how much influence any
+individual has over another. In addition to how easy it is to miss the
+connections between some action and it's outcome; the more layers of indirection
+required as any system increase in size, the harder it becomes to even describe
+how, or who plays which part. The ease at which anyone might forget, or how the
+difficulty grows as the system becomes more complex, doesn't seem to be the part
+that irks me. Sadly, the more I look for it, the more I see software engineers
+directly or indirectly though the systems they drive, ignore consent because
+it's expedient. This is bad, and collectively we should be embarrassed enough to
+do something.
 
 Opinions differ[^difficulty] on what exactly counts as consent. I'd venture to
 guess it gets even more complicated when it comes to software. I'm sure that
@@ -145,8 +146,8 @@ service[^srctree]. This isn't how consent is support to work!
 
 I almost feel bad for the above. It does seem to imply I'm blaming sr.ht here
 for failing to obtain consent. But that's entirely inaccurate. Source hut is
-playing fair. The splash screen while my computer wastes energy and cpu cycles
-for no other reason than "why not[^LLM power]", is totally within the
+playing fair. Showing the splash screen while my computer wastes energy and cpu
+cycles for no other reason than "why not[^LLM power]", is totally within the
 reasonability, and does seem to be fair in requesting consent; even though I
 refused. The problem with the missing consent are the bots.
 
@@ -168,11 +169,12 @@ crawling/scraping and consent over access is concerned.
 The ones violating the rules for consent are these.
 
 ```
-43.128.149.102 - [03/Apr/2025:15:48:20 +0000] "GET /repo/dns/commit/43edea6e HTTP/1.1" 200 932 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-34.145.110.128 - [05/Apr/2025:18:03:29 +0000] "GET /repo/srctree/tree/srcapi HTTP/2.0" 200 1650 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
-34.83.184.238 - [05/Apr/2025:16:31:18 +0000] "GET /repos/gak/issues HTTP/2.0" 200 494 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
-35.197.78.148 - [05/Apr/2025:16:31:52 +0000] "GET /repo/mqtt/diffs/new HTTP/2.0" 200 639 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
-35.203.140.140 - [05/Apr/2025:16:55:49 +0000] "GET /repo/srctree/issues/d HTTP/2.0" 200 564 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+43.128.149.102 - "GET /repo/dns/commit/43edea6e HTTP/1.1" 200 932 "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+34.145.110.128 - "GET /repo/srctree/tree/srcapi HTTP/2.0" 200 1650 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+34.83.184.238 - "GET /repos/gak/issues HTTP/2.0" 200 494 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+35.197.78.148 - "GET /repo/mqtt/diffs/new HTTP/2.0" 200 639 "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+35.203.140.140 - "GET /repo/srctree/issues/d HTTP/2.0" 200 564 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+114.250.44.111 - "HEAD /repo/n_e_s.git/commit/06fc04b5 HTTP/1.1" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 ```
 
 I've created and now published [nft rules](https://srctree.gr.ht/repo/rules) for
