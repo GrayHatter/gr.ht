@@ -2,3 +2,5 @@
 /static/assets/*
 /static/static/*.ttf
 /public
+/public**
+.hugo_build.lock
