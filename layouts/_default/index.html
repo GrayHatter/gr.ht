@@ -8,7 +8,11 @@
           {{- if not .Params.draft -}}
           <li>
             <h3><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h3>
-            <p>{{ .Summary | plainify }}</p>
+            <p>{{ if .Params.trunc -}}
+            {{- .Summary | plainify | truncate .Params.trunc "" -}}
+            {{- else -}}
+            {{- .Summary | plainify -}}
+            {{- end }}</p>
           </li>
           {{- end -}}
           {{ end }}
