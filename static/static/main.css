@@ -36,6 +36,10 @@ p > img {
     margin: 0 auto;
     display: block;
 }
+div.footnotes p > img {
+    margin: auto;
+    display: inline-block;
+}
 p code {
     display: inline-block;
     border: 1px solid #555;
