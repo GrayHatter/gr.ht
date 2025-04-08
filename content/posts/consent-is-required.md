@@ -68,15 +68,15 @@ end result from this interaction, the one with the primary goal of improving
 their health left feeling abused or violated.
 
 Contrast that with the experience of patents when someone is consistently
-talking to them, explaining them what's gonna happen next. Reminding them during
-difficult procedures, or ones that might be painful that they can ask to take a
-break if they need it. Those patients leave from the exact same exchange feeling
-cared about, and taken care of. Simply telling someone what to expect before it
-happens, and importantly giving them they have the option to opt out. Changes
-the experience from something traumatic, and violating, into one where they feel
-like someone cares about them. I suspect it might be shocking to your average
-~~software engineer~~ human,  how far treating users with just a little bit
-respect will go.
+talking to them, and explaining to them what's gonna happen next, each step of
+the way. Reminding them during difficult procedures, or ones that might be
+painful that they can ask to take a break if they need it. Those patients leave
+from the exact same exchange feeling cared about, and taken care of. Simply
+telling someone what to expect before it happens, and importantly giving them
+they have the option to opt out. Changes the experience from something
+traumatic, and violating, into one where they feel like someone cares about
+them. I suspect it might be shocking to your average ~~software engineer~~
+human,  how far treating users with just a little bit respect will go.
 
 ## What does respect look like?
 
@@ -86,9 +86,8 @@ completely unrelated to writing this.
 ![How Microsoft asks for consent](/assets/ms-consent.png)
 
 This is consent right? Permission freely given, with a fair opportunity to
-decline or otherwise opt out?
-
-Well, I'm sure Android is better though, right? Surely they....
+decline or otherwise opt out? Well, I'm sure Android is better though, right?
+Surely they...
 
 ![How Alphabet asks for consent](/assets/goog-consent.png)
 
