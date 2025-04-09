@@ -17,10 +17,14 @@ required as any system increase in size, the harder it becomes to even describe
 how, or who plays which part. The ease at which anyone might forget, or how the
 difficulty grows as the system becomes more complex, doesn't seem to be the part
 that irks me. Sadly, the more I look for it, the more I see software engineers
-directly or indirectly though the systems they drive, ignore consent because
-it's expedient: This is bad! While admittedly they don't often feel like they
-are, these are easy decisions to make, and collectively we should be embarrassed
-enough to do something.
+directly, or indirectly though the systems they drive, ignore consent when it's
+expedient: This is bad! The behavior of these systems come from decisions that
+an engineer made. Engineers can, and should make the best decision, that also
+does what's right by the people who uses these systems. While admittedly, they
+don't often feel like it; the ethical decisions are easy decisions to make. As
+engineers, collectively, we should take pride in what we build such that we want
+to make the best decision. Enough pride, that we all also feel embarrassed when
+we fail to do so.
 
 Opinions differ on what exactly counts as consent, often it depends on the
 context[^difficulty]. I'd venture to guess it gets even more complicated when it
