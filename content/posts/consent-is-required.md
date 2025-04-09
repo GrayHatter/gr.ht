@@ -161,16 +161,16 @@ sr.ht hurt itself in its confusion.
 
 I'm not apathetic to this specific source of anger and frustration. If anything
 you'd describe this feeling I share as empathy instead. I've spent a bit of time
-trying to make it easier for others[^easier commit]. My problem is more that
-sr.ht has decided that it's time for them to externalize their costs directly
-into **my** face! I've not done anything wrong, but the solution they've elected
-to go with, out of anger for the current state of things, is to punish[^punish]
-me. Unfortunately for everyone involved, I've elected not to play this little
-game. I've had to reject a few questions related to code that was hosted on
-sr.ht because I couldn't view it, until it was copied to a less open
+trying to make it easier for others[^easier]. My problem is more that sr.ht has
+decided that it's time for them to externalize their costs directly into **my**
+face! I've not done anything wrong, but the solution they've elected to go with,
+out of anger for the current state of things, is to punish[^punish] me.
+Unfortunately for everyone involved, I've elected not to play this little game.
+I've had to reject a few questions related to code that was hosted on sr.ht
+because I couldn't view it, until it was copied to a less open
 service[^srctree]. This isn't how consent is support to work!
 
-[^easier commit]: TODO link to commit here.
+[^easier]: TODO link to commit here.
 
 [^punish]: Calling this a punishment to me is stretching the definition a bit
     far. If anything it's more of a punishment to sr.ht's users. Who now I
@@ -186,8 +186,8 @@ I almost feel bad for the above. It does seem to imply I'm blaming sr.ht here
 for failing to obtain consent. But that's entirely inaccurate. Source hut is
 playing fair. Showing the splash screen while my computer wastes energy and cpu
 cycles for no other reason than "why not[^LLM power]", is totally within the
-reasonability, and does seem to be fair in requesting consent; even though I
-refused. The problem with the missing consent are the bots.
+realm of reasonability, and does seem to be fair in requesting consent; even
+though I refused. The problem with the missing consent are the bots.
 
 [^LLM power]: Remind me again, what's one of the major complains about GenAI?
     It's a totally green technology, right?
@@ -221,14 +221,13 @@ Not a single one of these are real users, even though each claim to be one. And
 there are a lot more than just these. These are just the ones in front of me as
 I write this. I didn't even *try* to go looking.
 
-I've created and now published [nft
-rules](https://srctree.gr.ht/repo/rules)[^nftrules] for IPs that I've had to ban
-for evading consent. The whole Hetzner ASN is banned, as well as a few others.
-Tencent and AliCloud will be next I'm sure. And I've filed an abuse report to
-Google Cloud already, but they only have a few more days before I ban their
-whole ASN as well. GoogleBot, another normally good citizen, one with a purpose
-I support (sharing information) would be unfortunate, but acceptable collateral
-damage here.
+I've created and now published [nft rules](https://srctree.gr.ht/repo/rules)[^nftrules]
+for IPs that I've had to ban for evading consent. The whole Hetzner ASN is
+banned, as well as a few others. Tencent and AliCloud will be next I'm sure. And
+I've filed an abuse report to Google Cloud already, but they only have a few
+more days before I ban their whole ASN as well. GoogleBot, another normally good
+citizen, one with a purpose I support (sharing information) would be
+unfortunate, but acceptable collateral damage here.
 
 [^nftrules]: If anyone decides to use them, let me know I'll start annotating
     them as well.
