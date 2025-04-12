@@ -189,7 +189,7 @@ cycles for no other reason than "why not[^LLM power]", is totally within the
 realm of reasonability, and does seem to be fair in requesting consent; even
 though I refused. The problem with the missing consent are the bots.
 
-[^LLM power]: Remind me again, what's one of the major complains about GenAI?
+[^LLM power]: Remind me again, what's one of the major complaints about GenAI?
     It's a totally green technology, right?
 
 It's important to note, while everyone loves to complain much more often about
