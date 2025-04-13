@@ -2,7 +2,7 @@
 layout = "post"
 title = "Consent Is Required"
 email = "consentrequired"
-date = 2025-03-29
+date = 2025-04-12
 tags = ["off-topic", "ethics", "consent", "trust"]
 draft = false
 trunc = 262
@@ -31,8 +31,8 @@ context[^difficulty]. I'd venture to guess it gets even more complicated when it
 comes to software. I'm sure that contributes to why TOS are so unparseable by
 the very people who are required to agree to them, that there's even a website
 dedicated to explaining common ones[^dislike]. What does consent look like when
-it's software they're interacting with? Clearly, If someone is choosing to use
-the software, had got to count as consent! Except, no, it's not.
+it's software they're interacting with? Clearly, If someone is choosing to
+continue using the software, that must count as consent! Except, no, it's not.
 
 [^difficulty]: Mine don't; clearly communicated agreement with disclosure. It's
     not hard to **consider the other human!**
@@ -51,7 +51,8 @@ learned, many times through mistakes; about what consent really means to the
 humans they treat[^humans]. It's easy to put any one into a situation where
 they'll "agree" to something. Only to then feel taken advantage of, or abused.
 Abused by people who day job is literally to save their life, and help them
-heal. When trying to understand, it's often explained as simply as:
+heal. When medicine trys to understand the why, patients often explain it as
+simply as:
 
 [^again]: Yes... again! :D [Informed Consent]( {{< ref
     "2019-07-14-informed-consent.md" >}} ) is probably required reading as well.
@@ -71,7 +72,7 @@ preforming whatever that procedure is have become such experts, they've done it
 end result from this interaction, the one with the primary goal of improving
 their health left feeling abused or violated.
 
-Contrast that with the experience of patents when someone is consistently
+Contrast that with the experience of patients when someone is consistently
 talking to them, and explaining to them what's gonna happen next, each step of
 the way. Reminding them during difficult procedures, or ones that might be
 painful that they can ask to take a break if they need it. Those patients leave
@@ -80,7 +81,7 @@ telling someone what to expect before it happens, and importantly giving them
 they have the option to opt out. Changes the experience from something
 traumatic, and violating, into one where they feel like someone cares about
 them. I suspect it might be shocking to your average ~~software engineer~~
-human,  how far treating users with just a little bit respect will go.
+human, how far treating users with just a little bit respect will go.
 
 ## What does respect look like?
 
@@ -111,13 +112,14 @@ I'm clearly suggesting is, and how catastrophic in would be. Allowing
 safe for you to stop reading here, and leave a comment saying I'm dumb!
 
 But that's not actually what I'm suggesting[^maybe a little]. I'm not brave
-enough to earnestly suggest putting users in direct control of security updates.
-But, in my ideal world; security teams wouldn't use the same dark patterns
-everyone admits are harmful, and toxic, until they want to use them. [Because
-surely **my** reason is the one time where the ends actually justify the means!]
-I'll even go one step further, and ask, why aren't users clamoring to install
-security updates? Why don't they trust you? Why haven't you fixed that trust
-problem yet?
+enough to earnestly suggest putting end users in direct control of security
+updates. But, in my ideal world; security teams wouldn't use the same dark
+patterns everyone admits are harmful, and toxic, and bad, and no one should use
+them... up until they want to use them. [Because surely **my** reason is the one
+time where the ends actually justify the means!] I’ll even go one step further,
+and ask, why aren't users clamoring to install security updates? Why don’t your
+users trust you? Why do they ignore security updates when security is what
+everyone is always talking about? Which engineers get to fix that trust problem?
 
 [^maybe a little]: I do think everyone should be permitted to make their own bad
     decisions, when they are solely responsible for the inevitable outcomes.
@@ -125,22 +127,65 @@ problem yet?
 ## Catalyst
 
 Now's probably the place where I'm supposed to describe the catalyst for this
-rant. And maybe contribute a bit of the understanding for why users don't trust
-the engineers who are clearly, only looking out for their safety.
+rant. Now, this has happened to me twice, and I wanna try to be clear here, the
+newest UI layout is objectively better, for a number of reasons. But exactly
+when I was already having a seriously awful day[^bots], my wifi network crashed
+and I had reload most browser tabs. *It was at this moment I knew, discord
+fucked up*. I was already pissed, and an update I normally would be excited
+about, turned into a "surprise update[^suprise]" that pissed me off even more. Truth be
+told, I knew I was gonna write something like this once I read one of the Q&A
+answers from the most recent (to me) discord **mobile** layout update. For you
+see, discord understands!
 
-I knew
+[^suprise]: There's a 4chan meme that this is as far as I'll explain here, but
+    it's not about updates. Still about consent though...
 
-The last medical procedure I participated in was one of my own. It was an MRI
-with contrast of my shoulder.
-
+[^bots]: and frustrated by the LLM bots I'm gonna rant about next.
 
 > Q: Can I go back to the original mobile app layout?
-
+>
 > A: We understand the change might take some getting used to, and we're here to
 > help make that transition as smooth as possible for you. But with this update,
-> the original mobile layout is no longer available.
+> the original mobile layout is no longer available[^understands].
 
-https://support.discord.com/hc/en-us/articles/12654190110999-New-Mobile-App-Updates-Layout
+[^understands]: https://support.discord.com/hc/en-us/articles/12654190110999-New-Mobile-App-Updates-Layout
+
+Remember how earlier I mentioned how you talk to people changes how they
+experience consent, both implied and explicit? Yeah, I know I'm not alone when I
+say this, because more than a few friends have shared the same aversion to
+"surprise updates", but I really **do not appreciate people changing things for
+me!** So when I wanted the old UI, and the first words I read was how discord
+"understands", and how they're "here to help" *[sigh]*... The whole thing really
+felt like a middle finger[^understood].
+
+[^understood]: If you really understood, and wanted to help. You would have
+    provided a "best effort" old version, at least for a few versions.
+
+I'm someone who likes living on the bleeding edge of software. I'm better than
+average when it comes to tolerating bugs that don't involve data loss. I'd be
+one of the first to opt into a new layout. But you'll notice how I said opt in,
+because with any changes you're making "for" someone... well Daniel Sloss
+conveys exactly what I mean to express much better, when he request you to
+*[nsfw video]* [ASK FIRST](https://youtu.be/1Y5AS3M9Vlo?t=73)!
+
+By now, I'd be unconvinced, because I meant it when I said I like new updates.
+"So what, you said the UI is better, why are we still talking about this?"
+Because I'm still using the old discord mobile layout, (mostly out of spite from
+that Q&A at this point.) I've chosen to pin myself, someone who often pretends
+to be a security engineer, to an out of date version. I'm willingly using an
+old, out of date apk of Discord, because it turns out, I will cut off my nose to
+spite my face. And [there are dozens of us](/assets/dozens.mp4)!
+
+I'm *sure* their security team is thrilled about this. I can confidently guess,
+because of exactly how times, we at `$OLD_JOB` wanted to make a significant
+improvement to security, or abuse detection/prevention, but we were thwarted by
+our unwillingness to outright block support of old devices. I begrudgingly
+assert this was and still is the correct decision. I refuse to punish users who
+can't update for whatever reason, because more often than not, it was our fault
+they aren't able to update.
+
+It turns out, if you ignore consent, that makes your users stop trusting you,
+and once users stop trusting you, that harms security of the whole system too.
 
 ## Reason
 
@@ -206,6 +251,7 @@ their bot. Really,whether you like them or not, they're being good web
 citizens... at least where crawling/scraping and consent over *access* is
 concerned.
 
+<!--
 The ones violating the rules for consent are these bots.
 
 ```
@@ -216,6 +262,7 @@ The ones violating the rules for consent are these bots.
 35.203.140.140 - "GET /repo/srctree/issues/d HTTP/2.0" 200 564 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
 114.250.44.111 - "HEAD /repo/n_e_s.git/commit/06fc04b5 HTTP/1.1" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 ```
+-->
 
 Not a single one of these are real users, even though each claim to be one. And
 there are a lot more than just these. These are just the ones in front of me as
