@@ -12,15 +12,15 @@ As I sit here attempting to decide what exactly belongs in this intro, I wonder
 how many more times someone is going to remind me exactly how important consent
 is, or remind me how easy it is to lose sight over how much influence any
 individual has over another. In addition to how easy it is to miss the
-connections between some action and it's outcome; the more layers of indirection
+connections between some action and its outcome; the more layers of indirection
 required as any system increase in size, the harder it becomes to even describe
 how, or who plays which part. The ease at which anyone might forget, or how the
 difficulty grows as the system becomes more complex, doesn't seem to be the part
 that irks me. Sadly, the more I look for it, the more I see software engineers
-directly, or indirectly though the systems they drive, ignore consent when it's
+directly, or indirectly through the systems they drive, ignore consent when it's
 expedient: This is bad! The behavior of these systems come from decisions that
 an engineer made. Engineers can, and should make the best decision, that also
-does what's right by the people who uses these systems. While admittedly, they
+does what's right by the people who use these systems. While admittedly, they
 don't often feel like it; the ethical decisions are easy decisions to make. As
 engineers, collectively, we should take pride in what we build such that we want
 to make the best decision. Enough pride, that we all also feel embarrassed when
@@ -38,7 +38,7 @@ continue using the software, that must count as consent! Except, no, it's not.
     not hard to **consider the other human!**
 
 [^dislike]: It's [TOS;DR](https://tosdr.org/), which I elect to only link here
-    because I disagree with a number of it's conclusions and assertions. I still
+    because I disagree with a number of its conclusions and assertions. I still
     applaud the attempt.
 
 In something that I'm sure isn't a shock to those I expect to read this, I'm
@@ -48,10 +48,10 @@ will make the hospital's lawyers happy. But the patient signing their agreement
 on the "terms of service" for the treatment, isn't where consent ends. Consent
 is more than the simple tick this checkbox and then tap submit. Healthcare has
 learned, many times through mistakes; about what consent really means to the
-humans they treat[^humans]. It's easy to put any one into a situation where
+humans they treat[^humans]. It's easy to put anyone into a situation where
 they'll "agree" to something. Only to then feel taken advantage of, or abused.
 Abused by people who day job is literally to save their life, and help them
-heal. When medicine trys to understand the why, patients often explain it as
+heal. When medicine tries to understand the why, patients often explain it as
 simply as:
 
 [^again]: Yes... again! :D [Informed Consent]( {{< ref
@@ -67,7 +67,7 @@ That's it, no one talked to them, no one told them what to expect, patients
 under a significant amount of stress, who ostensibly trusted the people taking
 care of them. Would feel victimized simply because *they* didn't know what was
 going on. This is something that still happens quite often. The people
-preforming whatever that procedure is have become such experts, they've done it
+performing whatever that procedure is have become such experts, they've done it
 **so** many times, they'll forget that for the patient, this is brand new. The
 end result from this interaction, the one with the primary goal of improving
 their health left feeling abused or violated.
@@ -81,7 +81,7 @@ telling someone what to expect before it happens, and importantly giving them
 they have the option to opt out. Changes the experience from something
 traumatic, and violating, into one where they feel like someone cares about
 them. I suspect it might be shocking to your average ~~software engineer~~
-human, how far treating users with just a little bit respect will go.
+human, how far treating users with just a little bit of respect will go.
 
 ## What does respect look like?
 
@@ -99,15 +99,15 @@ Surely they...
 This one feels especially egregious to me. Because you can't tell the only way
 to decline is hitting the back button, I'm also the type that likes the on
 screen buttons, where I know most people use the new swipe gestures. But hey,
-when has an update ever caused any problems[^911]? Obviously a system update is
-for the benefit of the user!
+when was the last an update ever caused any problems[^911]? Obviously a system
+update is for the benefit of the user!
 
 [^911]: https://www.engadget.com/microsoft-teams-911-call-android-bug-fix-201139753.html
 
 It's easy to forget, so this is where I'll remind you. I'm a security engineer.
 I both deeply understand the specifics, as well as what goes into creating a
 robust holistic security system. I know exactly how significant the thing that
-I'm clearly suggesting is, and how catastrophic in would be. Allowing
+I'm clearly suggesting is, and how catastrophic it would be. Allowing
 ***users*** to opt out of a security update? Clearly I've lost my mind, it's
 safe for you to stop reading here, and leave a comment saying I'm dumb!
 
@@ -130,14 +130,14 @@ Now's probably the place where I'm supposed to describe the catalyst for this
 rant. Now, this has happened to me twice, and I wanna try to be clear here, the
 newest UI layout is objectively better, for a number of reasons. But exactly
 when I was already having a seriously awful day[^bots], my wifi network crashed
-and I had reload most browser tabs. *It was at this moment I knew, discord
+and I had to reload most browser tabs. *It was at this moment I knew, discord
 fucked up*. I was already pissed, and an update I normally would be excited
-about, turned into a "surprise update[^suprise]" that pissed me off even more. Truth be
-told, I knew I was gonna write something like this once I read one of the Q&A
-answers from the most recent (to me) discord **mobile** layout update. For you
-see, discord understands!
+about, turned into a "surprise update[^surprise]" that pissed me off even more.
+Truth be told, I knew I was gonna write something like this once I read one of
+the Q&A answers from the most recent (to me) discord **mobile** layout update.
+For you see, discord understands!
 
-[^suprise]: There's a 4chan meme that this is as far as I'll explain here, but
+[^surprise]: There's a 4chan meme that this is as far as I'll explain here, but
     it's not about updates. Still about consent though...
 
 [^bots]: and frustrated by the LLM bots I'm gonna rant about next.
@@ -227,7 +227,7 @@ service[^srctree]. This isn't how consent is support to work!
 
 ## Consent
 
-I almost feel bad for the above. It does seem to imply I'm blaming sr.ht here
+I almost feel bad about the above. It does seem to imply I'm blaming sr.ht here
 for failing to obtain consent. But that's entirely inaccurate. Source hut is
 playing fair. Showing the splash screen while my computer wastes energy and cpu
 cycles for no other reason than "why not[^LLM power]", is totally within the
@@ -314,12 +314,12 @@ face light up to my response.
 > back in if they really needed. As a bonus doing it this way protects users who
 > might have been confused about the "new login" email and aren't sure what to
 > do. It's safer for them if we leave just the new session we know is good. But
-> this is your user flow right? You, [and your team], are the one who get's to
+> this is your user flow right? You, [and your team], are the one who gets to
 > make the final recommendation and decision here. So really it's up to you to
 > decide if you want the default to be protecting users, or trying to increase
 > [the number of daily active users] with sessions we don't know are real. But
 > whatever you decide, [Team Name] Security will be there to back your decision,
-> which ever you want to go with. If you want to invalidate sessions, but you
+> whichever you want to go with. If you want to invalidate sessions, but you
 > get any pushback [from your team], let us know and we'd be happy to make it a
 > security requirement for you, and then we'd be the ones to handle any
 > arguments.
