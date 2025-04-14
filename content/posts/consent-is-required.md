@@ -177,7 +177,7 @@ old, out of date apk of Discord, because it turns out, I will cut off my nose to
 spite my face. And [there are dozens of us](/assets/dozens.mp4)!
 
 I'm *sure* their security team is thrilled about this. I can confidently guess,
-because of exactly how times, we at `$OLD_JOB` wanted to make a significant
+because of exactly how many times, we at `$OLD_JOB` wanted to make a significant
 improvement to security, or abuse detection/prevention, but we were thwarted by
 our unwillingness to outright block support of old devices. I begrudgingly
 assert this was and still is the correct decision. I refuse to punish users who
