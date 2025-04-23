@@ -2,7 +2,7 @@
 layout = "post"
 title = "Persona Non Grata"
 email = "non-grata"
-date = 2025-04-22
+date = 2025-04-23
 tags = ["infosec", "security", "drama", "llm", "abuse"]
 draft = false
 #trunc = 300
@@ -107,7 +107,7 @@ I would classify as abusive. But **none** of them are subtle. The argument that
 these are advanced persistent threats, that are impossible to identify, and are
 constantly rotating identifiers, but have also chosen to spend this obfuscation
 time on crawling webpages, instead of a simple git clone, doesn't pass the sniff
-test. I don't buy it. I'm sure some of you have already picked your side, so
+test[^tor]. I don't buy it. I'm sure some of you have already picked your side, so
 I'll gladly fill in your objection for you. srctree is infinitesimally smaller
 than sr.ht, so obviously I've just never seen the real abuse! Perhaps, anyone
 with access to a host logs that's willing to share multiple KB of "raw" logs
@@ -116,6 +116,9 @@ unlikely, and doesn't match the traffic I've seen.
 
 [^go]: [ SourceHut will (not) blacklist the Go module
     mirror](https://sourcehut.org/blog/2023-01-09-gomodulemirror/)
+
+[^tor]: every time someone complains about abuse from a "residential" network, I
+    can't not hear: TOR exit node.
 
 ### The solution on srctree[^joke]
 
@@ -170,20 +173,105 @@ punish the people hosting the abuse!
     whatever the newest techno fad is, that you happen to dislike for whatever
     reason the "us group" has picked today.
 
+Yes, large scale scraping is rough, and hard to maintain, but we are FOSS
+hackers dammit, we've been building dope shit, and raising the bar of all
+software for longer than anyone ever thought was going to be possible. We've
+replaced bad user-hostile systems, with free, open, hackable code that does
+exactly what we want. Hackers don't punish users, or ruin **their** code because
+some VC startup doesn't know how to run a crawler, or clone a git repo, or wants
+to lie about what it's doing.
 
-### Other options
+### Other Options
 
 #### Firewall
-Finish describing the firewall rules.
 
-#### Firewall part 2
-Detect if you're banned from srctree
+So you've decided to block the abuse? Everyone still seems to like iptables
+still, but I use nftables these days. Below is a minimal example that you can
+*probably* drop in if you're using nftables.
+```
+table inet filter {
+    set abuse {
+        type ipv4_addr
+            flags interval
+            auto-merge
+            elements = { }
+    }
+    chain input {
+        type filter hook input priority 0; policy accept
+        ip saddr @abuse tcp dport { 80, 443 } counter
+        ip saddr @abuse tcp dport { 80, 443 } reject with icmpx 3
+        tcp dport { 80, 443 } accept
+    }
+    chain output {
+        type filter hook output priority 0; policy accept
+    }
+}
+```
+
+I recently switched[^yesllm] because I wanted an easier to configure grouping.
+Normally, I'd go with a scorched earth policy, and flat out drop everything that
+I consider abusive. But in this case, I've started banning whole subnets; so I'd
+feel bad if they didn't have a way to contact and ask for an
+exception/correction. This way, if your main server is also your name server, or
+email server, you can still receive a reply to that email you sent to the abuse
+contact.
+
+[^yesllm]: Yes... I wanted to group because of LLMs...
+
+Arguably, the most important part of the above, is `reject with icmpx 3` when
+you reject abusive crawler traffic, tell the sender why! Don't just drop the
+traffic! Here, we reject with icmp type 3, code 13 (administratively
+prohibited). The default, icmp reject `network unreachable` is misleading. It is
+reachable, but the admin has prohibited this communication, for non-technical
+reasons.
+
+If you'd like to detect if you're banned from srctree, `tcpdump -n icmp` and try
+to connect with your browser. You probably need to prefix with `doas` because
+the raw socket required to listen for icmp packets requires elevated network
+caps. If you see anything like `22:24:34.138261 IP 144.126.209.12 > 10.0.0.174:
+ICMP host 144.126.209.12 unreachable - admin prohibited filter, length 68` Your
+network host also hosts abuse. You should consider switching to a better ISP!
+
+#### Firewall v2
+
+Part of the original plan for this article was to submit a few patches to a
+browser or two, to show a different screen when a connection is admin prohibited
+instead of just "filtered" Unfortunately, these patches have proven themselves
+to be more work than my current headspace allows for[^nmap]. This makes it very
+hard for users to understand why they're blocked. If you'd rather not outright
+block this traffic, but send it to your PoW gateway, or serve a custom notice,
+or redirect to a separate instance on another port, that returns mostly 429 if
+CPU usage is ever >50% or whatever other metric/resource you find is being
+abused.
+
+[^nmap]: I still have the idea to send a patch to nmap, but getting my brain to
+    play along has proven harder than expected.
+
+```
+table inet raw {
+    chain prerouting {
+        type filter hook prerouting priority raw;
+        ip saddr @abuse tcp dport 443 tcp dport set [custom server port]
+    }
+}
+```
+
+Setting up `nat` + `masquerade` in nft is outside the scope of this rant but
+if you want to be really fancy, you could offload the abusive traffic to a
+different system.
 
 #### Verse Bot Detection
-Describe bot detection in verse.
 
+I've been playing with building bot detection in
+[Verse](https://srctree.gr.ht/repo/verse) There's a number of ideas that you're
+welcome to pick through if you're not ready to rewrite your whole codebase in
+verse yet. As of the moment I write this, it's covers about 40% of the
+detections I want to write. There's another high sensitivity rule that I need to
+add, but then I suspect it'll catch 90% of all the crawlers lying about who they
+are. If you do decide you'd like to try it out, or want to talk about how it
+works. Send me an email, I'm happy to help you reuse what I've learned in your
+detection system.
 
 [^fbasn]: https://rdap.db.ripe.net/ip/57.141.0.0
 [^hetznerasn]: https://bgp.he.net/AS24940#_prefixes
-
 

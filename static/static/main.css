@@ -44,13 +44,17 @@ div.footnotes p > img {
     display: inline-block;
 }
 p code {
+    font-family: monospace, sans-serif;
+    border-radius: 3px;
     display: inline-block;
     border: 1px solid #555;
     background-color: #333;
     font-size: .9rem;
     max-width: 80vw;
+    padding: 0 2px;
 }
 pre code {
+    font-family: monospace, sans-serif;
     display: inline-block;
     border-radius: 3px;
     border-top: 2px solid #101515;
