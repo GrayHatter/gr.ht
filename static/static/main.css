@@ -49,11 +49,15 @@ p code {
 }
 pre code {
     display: inline-block;
-    border: 1px solid #555;
-    background-color: #333;
+    border-radius: 3px;
+    border-top: 2px solid #101515;
+    border-right: 1px solid #151819;
+    border-bottom:  1px solid #889091;
+    border-left:  1px solid #666a6b;
+    background-color: #303030;
     font-size: .9rem;
     padding: 0.9em;
-    margin: 2em 0 2em 2em;
+    margin: 0 0 2em 1.5em;
     max-width: 80vw;
     overflow: scroll;
 }
