@@ -69,7 +69,7 @@ very cute you have an exclusion for curl, but that's still only in the security
 through obscurity category, so you're welcome to claim the negative credit for
 that!
 
-I know exactly why, Xi is doing it, it's their new toy[^cool]. But I also know
+I know exactly why, Xe is doing it, it's their new toy[^cool]. But I also know
 why SourceHut is doing it, and it's not because it's the best solution. It's
 because the owner of sourcehut is angry, and he's again, taking out his anger on
 other people, in this case the users of SourceHut[^support].
